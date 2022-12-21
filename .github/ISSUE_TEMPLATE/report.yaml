@@ -1,0 +1,50 @@
+name: "제보양식"
+description: "입력 문제를 제보하기 위한 양식입니다."
+labels: ["제보"]
+assignees: ["Riey"]
+body:
+- type: textarea
+  attributes:
+    label: 문제가 있는 프로그램
+    description: |
+      어느 프로그램을 사용할 때 문제를 겪으셨나요?
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 환경
+    description: |
+      어떤 환경에서 프로그램을 사용하셨나요?
+    value: |
+      * 운영체제:
+      * 프로그램 버전:
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 요약
+    description: |
+      간단히 문제를 요약해주세요.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 재현방법
+    description: |
+      문제를 재현할 수 있는 방법을 적어주세요.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 이미지
+    description: |
+      문제가 생기는 장면을 스크린샷이나 녹화로 찍어주세요.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 참고자료
+    description: |
+      참고할 만한 자료를 올려주세요.
+  validations:
+    required: false
